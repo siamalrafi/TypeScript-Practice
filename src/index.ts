@@ -1,3 +1,4 @@
+import { type } from 'os';
 //  simple practice task for typescript basic
 
 // 1. Convert the following JavaScript array into a TypeScript tuple
@@ -29,7 +30,7 @@ const findCommon = (arr1: number[], arr2: number[]) => {
 console.log(findCommon([1, 2, 3, 4, 5], [2, 4, 6, 8]));
  */
 
-// 3.You have an interface for Product, containing the product's id, name, price, and category. You want to filter an array of Products based on a specific criterion and value.
+/* // 3.You have an interface for Product, containing the product's id, name, price, and category. You want to filter an array of Products based on a specific criterion and value.
 
 interface Product {
   id: number;
@@ -53,3 +54,14 @@ const products: Product[] = [
 
 const filteredProducts = filterProducts(products, "category", "Category A");
 console.log(filteredProducts);
+ */
+
+interface Person {
+  name: string;
+  age: number;
+  email: string;
+
+}
+
+
+console.log("object")
