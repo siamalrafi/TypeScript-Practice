@@ -1,3 +1,3 @@
 "use strict";
-let x = "name";
-console.log(x);
+Object.defineProperty(exports, "__esModule", { value: true });
+console.log("object");
